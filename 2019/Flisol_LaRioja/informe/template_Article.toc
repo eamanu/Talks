@@ -1,0 +1,9 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {2}Python}{2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\textquestiondown }Python un lenguaje nuevo?}{2}
+\contentsline {section}{\numberline {3}PSF y PyAr}{2}
+\contentsline {section}{\numberline {4}\IeC {\textquestiondown }Puedo contribuir a Python?}{2}
+\contentsline {subsection}{\numberline {4.1}CPython}{2}
+\contentsline {subsection}{\numberline {4.2}Otros proyectos}{2}
+\contentsline {section}{\numberline {5}Conclusion}{2}

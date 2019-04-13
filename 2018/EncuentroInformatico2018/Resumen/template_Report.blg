@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: template_Report.aux
+The style file: abbrv.bst
+Database file #1: biblio.bib
+Warning--entry type for "freesw" isn't style-file defined
+--line 2 of file biblio.bib
+Warning--entry type for "richard-open" isn't style-file defined
+--line 10 of file biblio.bib
+I was expecting a `,' or a `}'---line 15 of file biblio.bib
+ :  
+ :  url = {https://www.gnu.org/philosophy/open-source-misses-the-point.html},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Cate-Emma" isn't style-file defined
+--line 18 of file biblio.bib
+I was expecting a `,' or a `}'---line 29 of file biblio.bib
+ :     
+ :     city =  {Córdoba},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "sopi" isn't style-file defined
+--line 32 of file biblio.bib
+Warning--entry type for "python-trend" isn't style-file defined
+--line 43 of file biblio.bib
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            519 strings with 4155 characters,
+and the built_in function-call counts, 1047 in all, are:
+= -- 88
+> -- 41
+< -- 0
++ -- 17
+- -- 12
+* -- 42
+:= -- 175
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 35
+empty$ -- 111
+format.name$ -- 12
+if$ -- 223
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 0
+newline$ -- 23
+num.names$ -- 10
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 41
+stack$ -- 0
+substring$ -- 25
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 0
+while$ -- 10
+width$ -- 6
+write$ -- 42
+(There were 2 error messages)
