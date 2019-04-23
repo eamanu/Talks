@@ -1,0 +1,51 @@
+\documentclass[spanish]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage{default}
+\usetheme{Boadilla}
+
+\usepackage{multicol}
+\usepackage{textcomp}	
+
+\title[MDIAE]{Contribuyendo a Python}
+\author{Arias Emmanuel}
+\institute[Flisol 2019]{15º Festival Latinoamericano de Instalación de Software Libre}
+\date{La Rioja,  27 de abril 2019}
+
+\begin{document}
+	
+\begin{frame}
+	\titlepage
+\end{frame}
+
+	
+\begin{frame}%[allowframebreaks]
+	\frametitle{Agenda}
+	\begin{multicols}{2}
+		\tableofcontents
+	\end{multicols}
+\end{frame}
+
+\AtBeginSection[]
+{
+	\begin{frame}%[allowframebreaks]
+		\frametitle{Agenda}
+		\begin{multicols}{2}
+			\tableofcontents[currentsection]
+		\end{multicols}
+	\end{frame}
+}
+\AtBeginSubsection[]
+{
+	\begin{frame}%[allowframebreaks]
+		\frametitle{Agenda}
+		\begin{multicols}{2}
+			\tableofcontents[currentsubsection]	
+		\end{multicols}
+	\end{frame}
+}
+
+
+\end{document}
+	
