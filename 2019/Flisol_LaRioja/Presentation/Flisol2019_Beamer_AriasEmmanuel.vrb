@@ -1,0 +1,7 @@
+\frametitle{CPython - Consiguiendo el código}
+	\begin{lstlisting}[language=bash]
+git clone git@github.com:eamanu/cpython.git
+	\end{lstlisting}
+
+	\center
+	\includegraphics[width=0.8\linewidth]{clone.png}
