@@ -1,0 +1,22 @@
+**Title:**
+Libcamera: freedom of cameras
+
+**Type of submission:**
+Lightning talks (5 minutes)
+
+**Language:**
+English
+
+**Abstract:**
+Cameras needs heavy hardware to image processing and this is based
+on advanced algorithms that, on embedded device, it run into CPU
+to save cost. In the absence of a clear limit between camera devices
+and Linux-based system, the only option is use a closed-source software.
+For that reason the Linux Media Community start a develop
+of a camera stack that will be open-source-friendly. Libcamera is not
+a monolithic library, it expose multiple components through its public
+API towards upper layers. All this components are develop with
+the propose to be Independent Camera Devices library.
+In this lightning talk the speaker will introduce to libcamera
+architecture with the propose to give to know this develop
+to the community.
