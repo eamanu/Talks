@@ -23,6 +23,7 @@
 \usepackage[utf8]{inputenc} % Allows the usage of non-english characters
 \usepackage{times} % Use the Times font
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{comment}
 \graphicspath{{images/}} % Location of the slide background and figure files
 
 % Beamer options - do not change
@@ -60,14 +61,22 @@
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\fbckg{1.jpg} % Slide background image
+\fbckg{richard.jpeg}
+\begin{frame}
+\end{frame}
+
+\fbckg{richard2.jpeg}
+\begin{frame}
+\end{frame}
+
+\fbckg{gnu.png} % Slide background image
 \begin{frame}
 \framedsl{¿Qué es el Software Libre?} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
 \end{frame}
 
 %------------------------------------------------
 
-\fbckg{2.jpg} % Slide background image
+\fbckg{gnu.png} % Slide background image
 \begin{frame}
 \framedsl{4 libertades básicas del software} % Text in this environment will be made large, uppercase and will wrap multiple lines
 \end{frame}
@@ -77,21 +86,55 @@
 \fbckg{2.jpg} % Slide background image
 \begin{frame}
 \itemized{ % This environment simply prints a series of bullet points
-\item Ley 0:
-\item Ley 1:
-\item Ley 2:
-\item Ley 3:
+\item Libertad 0: libertad de \textbf{usar} el programa, con cualquier propósito (uso). 
 }
 \end{frame}
 
-%------------------------------------------------
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 1: libertad de \textbf{estudiar} cómo funciona el programa y modificarlo, adaptándolo a las propias necesidades (estudio). 
+	}
+\end{frame}
 
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 2: la libertad de \textbf{distribuir} copias del programa, con lo cual se puede ayudar a otros usuarios (distribución). 
+	}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 3: la libertad de \textbf{mejorar} el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie (mejora). 
+	}
+\end{frame}
+
+%------------------------------------------------
+\begin{comment}
 \fbckg{2.jpg} % Slide background image
 \begin{frame}
 \framedsl{\pitem{First point} \pitem{Second point} \fitem{Third point}} % Text in \pitem commands will be printed one after another on separate slides until all are displayed
 \end{frame}
-
+\end{comment}
 %------------------------------------------------
+
+\fbckg{tux.jpg} % Slide background image
+\begin{frame}
+	\framedsl{Linux}
+\end{frame}
+
+
+\fbckg{linus.jpg} % Slide background image
+\begin{frame}
+\end{frame}
+
+\fbckg{opensource.png} % Slide background image
+\begin{frame}
+\end{frame}
+
+
 
 \fbckg{2.jpg} % Slide background image
 \begin{frame}
