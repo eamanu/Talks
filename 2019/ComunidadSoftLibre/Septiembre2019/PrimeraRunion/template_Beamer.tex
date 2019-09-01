@@ -1,0 +1,252 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancyslides Presentation
+% LaTeX Template
+% Version 1.0 (30/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% The Fancyslides class was created by:
+% Paweł Łupkowski (pawel.lupkowski@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{fancyslides}
+
+\usepackage[utf8]{inputenc} % Allows the usage of non-english characters
+\usepackage{times} % Use the Times font
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{comment}
+\graphicspath{{images/}} % Location of the slide background and figure files
+
+% Beamer options - do not change
+\usetheme{default} 
+\setbeamertemplate{navigation symbols}{} % Disable the slide navigation buttons on the bottom of each slide
+\setbeamercolor{structure}{fg=\yourowntexcol} % Define the color of titles and fixed text elements (e.g. bullet points)
+\setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+
+%------------------------------------------------
+% COLORS
+% The following colors are predefined in this class: white, black, gray, blue, green and orange
+
+% Define your own color as follows:
+%\definecolor{pink}{rgb}{156,0,151}
+
+\newcommand{\structureopacity}{0.75} % Opacity (transparency) for the structure elements (boxes and circles)
+
+\newcommand{\strcolor}{blue} % Set the color of structure elements (boxes and circles)
+\newcommand{\yourowntexcol}{white} % Set the text color
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titlephrase}{Primera Reunión de la Comunidad Local de Software Libre y Código Abierto de La Rioja} % Presentation title
+\newcommand{\name}{Emmanuel Arias} % Presenter's name
+
+\begin{document}
+	
+	\fbckg{blank.jpg} % Slide background image
+	\begin{frame}
+	\centering
+	\includegraphics[scale=0.25]{Feria-del-libro-2019.jpg}	
+\end{frame}
+
+\startingslide % This command inserts the title slide as the first slide
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Qué es el Software Libre?} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
+\end{frame}
+% Foto de Richard
+\fbckg{richard.jpeg}
+\begin{frame}
+\end{frame}
+% Foto de Richard
+\fbckg{richard2.jpeg}
+\begin{frame}
+\end{frame}
+
+% -----------------------------------------------
+% Las 4 libertades del software libre
+\fbckg{gnu.png} 
+\begin{frame}
+\framedsl{4 libertades básicas del software} % Text in this environment will be made large, uppercase and will wrap multiple lines
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\itemized{ % This environment simply prints a series of bullet points
+\item Libertad 0: libertad de \textbf{usar} el programa, con cualquier propósito (uso). 
+}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\itemized{ % This environment simply prints a series of bullet points
+\item Libertad 1: libertad de \textbf{estudiar} cómo funciona el programa y modificarlo, adaptándolo a las propias necesidades (estudio). 
+}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\itemized{ % This environment simply prints a series of bullet points
+\item Libertad 2: la libertad de \textbf{distribuir} copias del programa, con lo cual se puede ayudar a otros usuarios (distribución). 
+}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\itemized{ % This environment simply prints a series of bullet points
+\item Libertad 3: la libertad de \textbf{mejorar} el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie (mejora). 
+}
+\end{frame}
+
+%------------------------------------------------
+\begin{comment}
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\framedsl{\pitem{First point} \pitem{Second point} \fitem{Third point}} % Text in \pitem commands will be printed one after another on separate slides until all are displayed
+\end{frame}
+\end{comment}
+%------------------------------------------------
+
+%------------------------------------------------
+% Quien usa Software libre?
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\framedsl{Basta de tonterías, ¿quién va a fabricar Software Libre?}
+\end{frame}
+
+\fbckg{tux.jpg} % Slide background image
+\begin{frame}
+\framedsl{Linux}
+\end{frame}
+
+\fbckg{linus.jpg} % Slide background image
+\begin{frame}
+\end{frame}
+
+\fbckg{google.jpg} % Slide background image
+\begin{frame}
+\end{frame}
+
+\fbckg{opensource.png} % Slide background image
+\begin{frame}
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\centering
+\includegraphics[scale=0.3]{eric.jpg}
+\end{frame}
+
+%End el qué
+%------------------------------------------------
+
+%------------------------------------------------
+% Como?
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Cómo puedo asegurarme que no robarán mi creación?} 
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\misc{ % Anything can be placed inside the \misc{} command
+\Huge
+Licencias:
+\begin{enumerate}
+\centering	
+\item GNU General Public License (GPL)
+\item MIT
+\item BSD
+\item Apache
+\end{enumerate}
+}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Cómo puedo armar mi negocio sobre software libre?} 
+\end{frame}
+
+\fbckg{empresas.jpg} % Slide background image
+\begin{frame}
+%\framedsl{¿Cómo puedo armar mi negocio sobre software libre?} 
+\end{frame}
+
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Cómo puedo ayudar en el software libre?} 
+\end{frame}
+
+%------------------------------------------------
+
+%------------------------------------------------
+% Por qué?
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Por qué deberíamos usar Sotfware Libre?} 
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\centering
+\includegraphics[scale=1]{snowden.jpg}
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\centering
+\includegraphics[scale=0.5]{mark.jpg}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\framedsl{Si usamos software privativo, nos podemos olvidar de nuestra privacidad.}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\framedsl{Además, de nuestras libertades.}
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\centering
+\includegraphics[scale=0.5]{loves.png}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+\framedsl{Y a veces puede ser peligroso.}
+\end{frame}
+
+% End por qué?
+%------------------------------------------------
+
+%------------------------------------------------
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\thankyou % Inserts a thank you slide
+\end{frame}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
