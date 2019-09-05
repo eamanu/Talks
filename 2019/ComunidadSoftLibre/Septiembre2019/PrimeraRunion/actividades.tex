@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancyslides Presentation
+% LaTeX Template
+% Version 1.0 (30/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% The Fancyslides class was created by:
+% Paweł Łupkowski (pawel.lupkowski@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{fancyslides}
+
+\usepackage[utf8]{inputenc} % Allows the usage of non-english characters
+\usepackage{times} % Use the Times font
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{comment}
+\graphicspath{{images/}} % Location of the slide background and figure files
+
+% Beamer options - do not change
+\usetheme{default} 
+\setbeamertemplate{navigation symbols}{} % Disable the slide navigation buttons on the bottom of each slide
+\setbeamercolor{structure}{fg=\yourowntexcol} % Define the color of titles and fixed text elements (e.g. bullet points)
+\setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+
+%------------------------------------------------
+% COLORS
+% The following colors are predefined in this class: white, black, gray, blue, green and orange
+
+% Define your own color as follows:
+%\definecolor{pink}{rgb}{156,0,151}
+
+\newcommand{\structureopacity}{0.75} % Opacity (transparency) for the structure elements (boxes and circles)
+
+\newcommand{\strcolor}{blue} % Set the color of structure elements (boxes and circles)
+\newcommand{\yourowntexcol}{white} % Set the text color
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titlephrase}{1.2.0 Reunión de la Comunidad Local de Software Libre y Código Abierto de La Rioja - Manos a la obra} % Presentation title
+\newcommand{\name}{Emmanuel Arias} % Presenter's name
+\newcommand{\affil}{eamanu.com} % Presenter's institution
+\newcommand{\email}{emmanuelarias30@gmail.com//eamanu@eamanu.com} % Presenter's email address
+
+
+\begin{document}
+	
+	\fbckg{blank.jpg} % Slide background image
+	\begin{frame}
+	\centering
+	\includegraphics[scale=0.25]{gnu.png}
+	\end{frame}
+
+\startingslide % This command inserts the title slide as the first slide
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{Estemos en contacto} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+		\itemized{ 
+	Mandar un email a emmanuelarias30@gmail.com
+	
+	\textit{Subject: [SL La Rioja] Contacto}
+	
+    \textit{To: emmanuelarias30@gmail.com}
+	
+	Hola, \\Quisiera unirme a la comunidad de software libre de la Rioja.\\ Saludos!
+}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ 
+		\item Channel IRC (Freenode): \#LaRiojaSoft
+		\item Chat Gitter (https://gitter.im)
+		\item Via mail
+		\item Slack
+	}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+	\framedsl{Primeras Tareas} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}	
+	\itemized{ 
+		\item Poner Nombre al grupo. Votación. ¿Logo?
+		\item Elegir repositorio y crear cuenta. Github? Gitlab? Otro?
+		\item Dónde vamos a alojar nuestros sistemas?
+		\item Crear Página
+		\item Formalizar el grupo
+		\item Crear firma. GnuPG (https://gnupg.org/)
+	}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+	\framedsl{Luego...} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ 
+		\item Elegir proyectos para Contribuir. Crear un bug tracker?
+		\item Lluvia de ideas de proyectos para generar.
+		\item Segunda Reunión. Empaquetado de Debian.
+		\item Estudiemos el Kernel?
+	}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\thankyou % Inserts a thank you slide
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}	
+	\itemized{ % This environment simply prints a series of bullet points
+        https://github.com/eamanu/Talks/blob/master/\\
+        2019/ComunidadSoftLibre/Septiembre2019/\\
+        PrimeraRunion/actividades.tex
+    }
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}	
+	\itemized{ % This environment simply prints a series of bullet points
+emmanuelarias30@gmail.com
+	}
+\end{frame}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
