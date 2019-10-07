@@ -1,0 +1,257 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancyslides Presentation
+% LaTeX Template
+% Version 1.0 (30/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% The Fancyslides class was created by:
+% Paweł Łupkowski (pawel.lupkowski@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{fancyslides}
+
+\usepackage[utf8]{inputenc} % Allows the usage of non-english characters
+\usepackage{times} % Use the Times font
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{comment}
+\graphicspath{{images/}} % Location of the slide background and figure files
+
+% Beamer options - do not change
+\usetheme{default} 
+\setbeamertemplate{navigation symbols}{} % Disable the slide navigation buttons on the bottom of each slide
+\setbeamercolor{structure}{fg=\yourowntexcol} % Define the color of titles and fixed text elements (e.g. bullet points)
+\setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+
+%------------------------------------------------
+% COLORS
+% The following colors are predefined in this class: white, black, gray, blue, green and orange
+
+% Define your own color as follows:
+%\definecolor{pink}{rgb}{156,0,151}
+
+\newcommand{\structureopacity}{0.75} % Opacity (transparency) for the structure elements (boxes and circles)
+
+\newcommand{\strcolor}{blue} % Set the color of structure elements (boxes and circles)
+\newcommand{\yourowntexcol}{white} % Set the text color
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titlephrase}{Comunidad de Software Libre en La Rioja} % Presentation title
+\newcommand{\name}{Emmanuel Arias} % Presenter's name
+\newcommand{\affil}{eamanu.com} % Presenter's institution
+\newcommand{\email}{emmanuelarias30@gmail.com//eamanu@eamanu.com} % Presenter's email address
+
+
+\begin{document}
+	
+	\fbckg{blank.jpg} % Slide background image
+	\begin{frame}
+	\centering
+	\includegraphics[scale=0.25]{gnu.png}
+	\end{frame}
+
+\startingslide % This command inserts the title slide as the first slide
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\framedsl{¿Qué es el Software Libre?} % Text in this environment is printed in a circle and will be made large and uppercase - if you need to fit more text in you can reduce the font size within the \pointedsl{} bracket as usual, e.g. \pointedsl{\large smaller main point}
+\end{frame}
+% Foto de Richard
+\fbckg{richard.jpeg}
+\begin{frame}
+\end{frame}
+
+% -----------------------------------------------
+% Las 4 libertades del software libre
+\fbckg{gnu.png} 
+\begin{frame}
+	\framedsl{4 libertades básicas del software} % Text in this environment will be made large, uppercase and will wrap multiple lines
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 0: libertad de \textbf{usar} el programa, con cualquier propósito (uso). 
+	}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 1: libertad de \textbf{estudiar} cómo funciona el programa y modificarlo, adaptándolo a las propias necesidades (estudio). 
+	}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 2: la libertad de \textbf{distribuir} copias del programa, con lo cual se puede ayudar a otros usuarios (distribución). 
+	}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Libertad 3: la libertad de \textbf{mejorar} el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie (mejora). 
+	}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+	% This environment simply prints a series of bullet points
+	\framedsl{El rol de la Universidad Publica}
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+	% This environment simply prints a series of bullet points
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{images/excel}
+	\caption{}
+	\label{fig:excel}
+\end{figure}
+
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{images/msproject}
+	\caption{}
+	\label{fig:msproject}
+\end{figure}
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+	% This environment simply prints a series of bullet points
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{images/excel2}
+	\caption{}
+	\label{fig:excel2}
+\end{figure}
+
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+	% This environment simply prints a series of bullet points
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{images/excel3}
+		\caption{}
+		\label{fig:excel3}
+	\end{figure}
+	
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}
+	% This environment simply prints a series of bullet points
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{images/excel4}
+	\caption{}
+	\label{fig:excel4}
+\end{figure}
+\end{frame}
+
+\fbckg{blank.jpg}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{images/precio_ms_office}
+		\caption{}
+		\label{fig:preciomsoffice}
+	\end{figure}
+\end{frame}
+
+\fbckg{blank.jpg}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{images/precio_ms_project}
+		\caption{}
+		\label{fig:preciomsproject}
+	\end{figure}
+	
+\end{frame}
+
+\fbckg{blank.jpg}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{images/adobe}
+		\caption{}
+		\label{fig:adobe}
+	\end{figure}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+% This environment simply prints a series of bullet points
+\framedsl{Vamos a crear una comunidad de Software Libre y Código Abierto.}
+\end{frame}
+
+\begin{frame}
+	\framedsl{Objetivos}
+\end{frame}
+
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Contribuir a proyectos de software libre o código abierto (Debian, Python, Kernel, etc..)
+		\item Generar proyectos para la provincia/sociedad/región/país. 
+		\item Acceder a becas y ayudas para estudiantes y profesionales (Google Summer of Code, Debian Bursary, etc.)
+	}
+\end{frame}
+\fbckg{2.jpg} % Slide background image
+\begin{frame}
+	\itemized{ % This environment simply prints a series of bullet points
+		\item Ganar experiencia.
+		\item Estudiar y aprender.
+		\item Permitir que los estudiantes avanzados generen Trabajos de Tesis dentro del Grupo.
+		\item Alumnos avanzados puedan realizar prácticas profesionales.
+		\item Presentar charlas en congresos nacionales (e internacional?)
+		\item Reuniones cada 1 1/2 mes. Video calls. 
+	}
+\end{frame}
+
+\fbckg{1.jpg} % Slide background image
+\begin{frame}
+\thankyou % Inserts a thank you slide
+\end{frame}
+
+\fbckg{blank.jpg} % Slide background image
+\begin{frame}	
+	\itemized{ % This environment simply prints a series of bullet points
+        https://github.com/eamanu/Talks/blob/master/\\
+        2019/ComunidadSoftLibre/Septiembre2019/\\
+        PrimeraRunion/objetivos.tex
+    }
+\end{frame}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
