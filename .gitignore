@@ -9,3 +9,6 @@
 *.dvi
 *.blg
 *.~lock.*
+venv/
+*.py
+*__pycache__*
