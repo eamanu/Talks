@@ -12,3 +12,4 @@
 venv/
 *.py
 *__pycache__*
+.txt
